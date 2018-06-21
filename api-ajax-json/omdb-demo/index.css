@@ -1,0 +1,68 @@
+
+body {
+  height: 100%;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  background-color: #F7F7F7;
+}
+
+.upper-box {
+  background-color: #E1A89E;
+  height: 300px;
+  margin: 0;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 120px;
+  margin: 0;
+  line-height: 0.8em;
+}
+
+.subheading {
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.upper-box > .img-container {
+  position: absolute;
+  right: 350px;
+  bottom: -100px;
+}
+
+#poster > img {
+  height: 250px;
+  width: 200px;
+}
+
+.lower-box {
+  margin: 100px;
+}
+
+#info-container {
+  display: none;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.section-label {
+  font-weight: 700;
+}
+
+.result {
+  font-weight: 400i;
+  font-style: italic;
+}

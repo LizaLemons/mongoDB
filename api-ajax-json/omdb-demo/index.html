@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>OMDB API</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+  <div class="upper-box">
+    <div class="heading">
+      <h1>OMDB</h1>
+      <div class="subheading">Search the Open Movie Database</div>
+    </div>
+
+    <div class="img-container">
+      <span id="poster">
+        <img src="hollywood.jpg" alt="">
+      </span>
+    </div>
+  </div>
+
+  <div class="lower-box">
+
+
+
+    <form>
+      <div>Try "Casablanca", "Pitch Perfect", or "Titanic"</div>
+      <input type="text" id="api-input" name="movie" placeholder="movie title">
+      <button id="submit-btn">Search</button>
+      <br><br>
+    </form>
+
+    <!-- data will be appended here: -->
+    <div id="info-container">
+
+      <div id="title">Title will go here.</div>
+      <div id="year" class="result">Year will go here.</div>
+      <br>
+
+      <div class="section-label">Actors:</div>
+      <div id="actors" class="result">Actors will go here.</div>
+      <br>
+
+      <div class="section-label">Synopsis:</div>
+      <div id="plot" class="result">Plot will go here.</div>
+    </div>
+
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  margin: 30px;
+}
+
+h1, h4 {
+  color: black;
+  text-align: center;
+  font-weight: 300;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: gray;
+  margin-top: 10px;
+}
+
+div.container {
+  margin: 0 auto;
+  width: 900px;
+  font-size: 20px;
+}
+
+div.box-row {
+  /*border: 1px solid blue;*/
+  width: 100%;
+  min-height: 300px;
+}
+
+div.box {
+  /*border: 1px solid red;*/
+  display: inline-block;
+  width: 32%;
+}
+
+div.num {
+  font-size: 200px;
+  text-align: right;
+  font-family: 'Abril Fatface', cursive;
+  margin-right: 20px;
+}
+
+div.num.two {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+div.header {
+  font-family: 'Abril Fatface', cursive;
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
+div.copy {
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+div.last-row {
+  margin-top: 50px;
+  min-height: 0;
+}
+
+div.reference {
+  color: lightgray;
+  font-size: 16px;
+  text-align: center;
+}
+div.reference > a {
+  color: lightgray;
+}
